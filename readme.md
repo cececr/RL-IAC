@@ -13,31 +13,31 @@ Saliency learning on the foveated system called "BioVision". Learning is made po
 
 Another approach for learning saliency on a mobile robot. This time, objects are detected based on a depth-segmentation technique. Similarly, the information provided by the object detector is used as a learning signal to update the saliency model.
 
-[![Saliency learning on a mobile robot](https://github.com/cececr/RL-IAC/blob/master/screenshots/saliencylearningmobilerobot.png)](https://www.youtube.com/watch?v=jNovc5jIIhw)
+[![Saliency learning on a mobile robot](screenshots/saliencylearningmobilerobot.png)](https://www.youtube.com/watch?v=jNovc5jIIhw)
 
 ### Bounding box proposals
 
 Bounding box proposals results and comparison with the top ranked EdgeBoxes on the same image. Our bounding boxes are obtained from depth segmentation (SegBoxes), and EdgeBoxes. In both cases, these boxes are associated with a saliency-consistency score (based on the produced saliency map) that provides a good confidence score for selecting or rejecting a bounding box proposal. 
 
-[![Bounding box proposals](https://github.com/cececr/RL-IAC/blob/master/screenshots/boundingboxproposals.png)](https://www.youtube.com/watch?v=IM1eFtysXPU)
+[![Bounding box proposals](screenshots/boundingboxproposals.png)](https://www.youtube.com/watch?v=IM1eFtysXPU)
 
 ### Region creation and simulation
 
 A focus on the way regions are constructed in RL-IAC. For now, our method works in two steps: first, the robot quickly covers the environment to build a reliable map and constructs regions accordingly. Second, displacement are performed based on this map to create a model of saliency. 
 
-[![Regions creation](https://github.com/cececr/RL-IAC/blob/master/screenshots/displacementsimulation.png)](https://www.youtube.com/watch?v=BZgcF-iIBDY)
+[![Regions creation](screenshots/displacementsimulation.png)](https://www.youtube.com/watch?v=BZgcF-iIBDY)
 
 ### Progress evolution and region selection
 
 An illustration of the action selection procedure with the IAC algorithm. In this case, regions are portions of a video sequence, and an action represents the selection of a particular frame in this sequence. Each region has a local estimation of the error the saliency model is doing. This measure of the error is used to obtain the learning progress. This measure is then used to select frames for updating the saliency model.
 
-[![Progress evolution](https://github.com/cececr/RL-IAC/blob/master/screenshots/progressevolution.png)](https://www.youtube.com/watch?v=w-nGugA5SS4)
+[![Progress evolution](screenshots/progressevolution.png)](https://www.youtube.com/watch?v=w-nGugA5SS4)
 
 ### IAC on BioVision
 
 A video displaying the exploration based on IAC on the BioVision platform: regions are defined in the pan-tilt space, where each positions corresponds to a foveal observation. This observation is used as a learning signal through object recognition and a saliency model is progressively updated and improved. To explore the environment methodically, the robot uses a local measure of the learning progress and samples observations in the most progressing regions.
 
-[![IAC on BioVision](https://github.com/cececr/RL-IAC/blob/master/screenshots/explorationbiovisioniac.png)](https://www.youtube.com/watch?v=rU3ExsIXTjw)
+[![IAC on BioVision](screenshots/explorationbiovisioniac.png)](https://www.youtube.com/watch?v=rU3ExsIXTjw)
 
 ## Publications
 ### Thesis
