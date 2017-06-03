@@ -7,7 +7,7 @@ This is the repository for the RL-IAC project. The source code is not released y
 ### Saliency learning on the BioVision platform
 
 Saliency learning on the foveated system called "BioVision". Learning is made possible through an object classifier applied to the foveal image. When an object is detected in the fovea, the visual aspect of this object is used to update the saliency model that is applied in the contextual image.
-[![Saliency learning on BioVision](tree/master/screenshots/saliencylearningevolutiononbiovision.png)](https://www.youtube.com/watch?v=bCdsGLT2UQw)
+[![Saliency learning on BioVision](screenshots/saliencylearningevolutiononbiovision.png)](https://www.youtube.com/watch?v=bCdsGLT2UQw)
 
 ### Saliency learning on a mobile robot
 
