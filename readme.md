@@ -7,7 +7,7 @@ This is the repository for the RL-IAC project. The source code is not released y
 ### Saliency learning on the BioVision platform
 
 Saliency learning on the foveated system called "BioVision". Learning is made possible through an object classifier applied to the foveal image. When an object is detected in the fovea, the visual aspect of this object is used to update the saliency model that is applied in the contextual image.
-[![Saliency learning on BioVision](../blob/master/screenshots/saliencylearningevolutiononbiovision.png)](https://www.youtube.com/watch?v=bCdsGLT2UQw)
+[![Saliency learning on BioVision](tree/master/screenshots/saliencylearningevolutiononbiovision.png)](https://www.youtube.com/watch?v=bCdsGLT2UQw)
 
 ### Saliency learning on a mobile robot
 
@@ -41,12 +41,12 @@ A video displaying the exploration based on IAC on the BioVision platform: regio
 
 ## Publications
 ### Thesis
-* Celine Craye, *Intrinsic Motivation Mechanisms for Incremental Learning of Visual Saliency*[PDF File](https://www.researchgate.net/publication/317332909_Intrinsic_motivation_mechanisms_for_incremental_learning_of_visual_saliency)
+* Celine Craye, *Intrinsic Motivation Mechanisms for Incremental Learning of Visual Saliency*. [PDF File](https://www.researchgate.net/publication/317332909_Intrinsic_motivation_mechanisms_for_incremental_learning_of_visual_saliency)
 
 ### Conferences
-* Craye, C., Filliat, D. & Goudou, J.F. (2015). *Apprentissage incrémental de la saillance visuelle pour des applications robotique*, sciencesconf.org:orasis2015:55355.[PDF file](https://hal.archives-ouvertes.fr/hal-01161848/file/V3ORASIS.pdf)
+* Craye, C., Filliat, D. & Goudou, J.F. (2015). *Apprentissage incrémental de la saillance visuelle pour des applications robotique*, sciencesconf.org:orasis2015:55355. [PDF file](https://hal.archives-ouvertes.fr/hal-01161848/file/V3ORASIS.pdf)
 * Craye, C., Filliat, D. & Goudou, J.F. (2015). *Exploration Strategies for Incremental Learning of Object-Based Visual Saliency*. ICDL-EPIROB-The fifth joint IEEE International Conference on Development and Learning and on Epigenetic Robotics, At Providence, RI, USA. [PDF file](https://hal.archives-ouvertes.fr/hal-01170532/file/ICDL_celine_craye_final.pdf)
-* Craye, C., Filliat, D. & Goudou, J.F. (2016). *Environment Exploration for Object-Based Visual Saliency Learning*. Robotics and Automaton (ICRA), 2016 IEEE International Conference on, At Stockholm, Sweden.[PDF file](https://hal.archives-ouvertes.fr/hal-01289159/file/root.pdf)
+* Craye, C., Filliat, D. & Goudou, J.F. (2016). *Environment Exploration for Object-Based Visual Saliency Learning*. Robotics and Automaton (ICRA), 2016 IEEE International Conference on, At Stockholm, Sweden. [PDF file](https://hal.archives-ouvertes.fr/hal-01289159/file/root.pdf)
 * Craye, C., Filliat, D. & Goudou, J.F. (2016). *RL-IAC: An autonomous exploration policy for online saliency learning on a mobile robot*. In 2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). [PDF file](https://hal.archives-ouvertes.fr/hal-01392947/file/root.pdf)
 * Craye, C., Filliat, D. & Goudou, J.F. (2016). *On the Use of Intrisic Motivation for Visual Saliency Learning*. ICDL-EPIROB-The sixth joint IEEE International Conference on Development and Learning and on Epigenetic Robotics, At Cergy Pontoise, France. [PDF file](https://hal.archives-ouvertes.fr/hal-01370850/document) 
 
