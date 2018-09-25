@@ -1,3 +1,3 @@
-[submodule "RL_IAC_SaliencyLearning"]
-	path = RL_IAC_SaliencyLearning
-	url = ./RL_IAC_SaliencyLearning/
+[submodule "RL-IAC-cpp"]
+	path = RL-IAC-cpp
+	url = ./RL-IAC-cpp/
