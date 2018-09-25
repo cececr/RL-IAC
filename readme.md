@@ -1,12 +1,14 @@
 # RL-IAC
 
-This is the repository for the RL-IAC project. The source code is not released yet, but in the meantime, you can watch some result videos or refer to a few articles describing the proposed method.
+This is the repository for the RL-IAC project. The source code is now released ! Check out the submodules, there is a C++ implementation of the whole RL-IAC project, as well as ros nodes.
+You can also watch some result videos or refer to a few articles describing the proposed method.
 
 ## Videos
 
 ### Saliency learning on the BioVision platform
 
 Saliency learning on the foveated system called "BioVision". Learning is made possible through an object classifier applied to the foveal image. When an object is detected in the fovea, the visual aspect of this object is used to update the saliency model that is applied in the contextual image.
+
 [![Saliency learning on BioVision](screenshots/saliencylearningevolutiononbiovision.png)](https://www.youtube.com/watch?v=bCdsGLT2UQw)
 
 ### Saliency learning on a mobile robot
